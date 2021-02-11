@@ -6,7 +6,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ECommerceComponent } from './e-commerce/e-commerce.component';
 import { NotFoundComponent } from './miscellaneous/not-found/not-found.component';
 import { ControlWiseComponent } from './control-wise/control-wise.component';
-import { FunctionWiseComponent } from './function-wise/function-wise.component';
+import { FunctionWiseComponent } from './function-wise/dashboard.component';
 
 const routes: Routes = [{
   path: '',

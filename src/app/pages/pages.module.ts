@@ -8,7 +8,7 @@ import { ECommerceModule } from './e-commerce/e-commerce.module';
 import { PagesRoutingModule } from './pages-routing.module';
 import { MiscellaneousModule } from './miscellaneous/miscellaneous.module';
 import { ControlWiseComponent } from './control-wise/control-wise.component';
-import { FunctionWiseComponent } from './function-wise/function-wise.component';
+import { FunctionWiseModule } from './function-wise/dashboard.module';
 
 @NgModule({
   imports: [
@@ -16,13 +16,13 @@ import { FunctionWiseComponent } from './function-wise/function-wise.component';
     ThemeModule,
     NbMenuModule,
     DashboardModule,
+    FunctionWiseModule,
     ECommerceModule,
     MiscellaneousModule,
   ],
   declarations: [
     PagesComponent,
     ControlWiseComponent,
-    FunctionWiseComponent,
   ],
 })
 export class PagesModule {
